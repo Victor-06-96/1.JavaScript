@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(207, 207, 207);
+        font: normal 20pt arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+      var n1 = Number(window.prompt("Digite um número")); // prompt sempre resulta uma string
+      var n2 = Number(window.prompt("Digite outro número")); // prompt sempre resulta em string
+      var s = n1 + n2;
+      window.alert("a soma de " + n1 + " e " + n2 + " é igual a " + s);
+      var nome = window.prompt("Qual seu Nome?");
+      document.write(n1 + " + " + n2 + " = " + s + ".</br>");
+      document.write(nome + " tem " + nome.length + " letras.</br>");
+      document.write(
+        nome + " em letras maúsculas fica " + nome.toUpperCase() + "</br>"
+      );
+      document.write("em minúscula, é: " + nome.toLowerCase());
+      // + serve para adição e concatennação (juntar)
+      //para forçar o + a fazer uma adição, fazer uma conversão de string para number
+      //Number(n)
+      //Number.parseInt(n) para forçar números inteiros (ex: 222222)
+      //Number.parseFloat(n) para forçar números reais (ex: 222.22)
+      // para converter em uma string
+      //String(n) ou n.toString
+      // lembrando que "n" está relácionado a linha toda da ação
+    </script>
+  </body>
+</html>
