@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste</title>
+    <style>
+      body {
+        background-color: rgb(160, 160, 160);
+        font-size: 20pt;
+      }
+
+      #resp {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nacionalidade</h1>
+    <p>de qual país você é</p>
+    <input type="text" name="pais" id="pais" />
+    <input type="button" value="Selecionar" onclick="selecionar()" />
+    <div id="resp"></div>
+    <script>
+      function selecionar() {
+        var pais = window.document.querySelector("#pais");
+        var resp = window.document.querySelector("#resp");
+        if (pais == "brasil" || "Brasil") {
+          resp.innerHTML = `Você é Brasileiro`;
+        } else {
+          resp.innerHTML = `Você é Estrangeiro`;
+        }
+      }
+    </script>
+  </body>
+</html>
