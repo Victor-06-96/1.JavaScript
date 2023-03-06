@@ -6,7 +6,7 @@ while = enquanto
 var a = 1
 do {
     console.log(`Passo ${a}`)
-    a++
+    a++ // ou (a = a + 1) OU (a += 1) qualquer uma está certa
 } while (a <= 6)
 
 
