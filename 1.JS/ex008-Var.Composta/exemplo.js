@@ -13,7 +13,7 @@ if (pos == -1) {
     console.log(`o valor 5 está na posição ${pos}`)
 }
 
-var pos2 = valores.indexOf(3)
+var pos2 = valores.indexOf(3) 
 
 if (pos2 == -1) {
     console.log(`valor não encontrado`)
