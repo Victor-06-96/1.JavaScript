@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(61, 122, 253);
+  font-size: 20px;
+}
+
+header {
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#sexo {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.sexo {
+  margin: 0px 5px 0px 15px;
+}
+
+#botao {
+  margin-bottom: 20px;
+}
