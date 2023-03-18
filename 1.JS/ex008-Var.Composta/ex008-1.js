@@ -13,11 +13,14 @@ if (pos == -1) {
     console.log(`o valor 5 está na posição ${pos}`)
 }
 
-var pos2 = valores.indexOf(3) 
+var pos2 = valores.indexOf(3) /* indexOf(valor) vai procurar  o valor que vc olocou entre parenteses, 
+se ele achar, vai mostrar em qual posição o valor se encontra, se nao achar, 
+vai trazer a resposta (-1)*/
 
 if (pos2 == -1) {
     console.log(`valor não encontrado`)
 } else {
     console.log(`o valor 5 está na posição ${pos2}`)
 }
+
 
