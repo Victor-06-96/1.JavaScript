@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  margin: 20px;
   color: white;
 }
 
@@ -47,5 +48,6 @@ section {
 }
 
 footer {
+  margin: 20px;
   color: white;
 }
